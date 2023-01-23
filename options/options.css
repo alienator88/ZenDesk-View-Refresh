@@ -1,0 +1,85 @@
+html,
+body {
+  background-color: rgb(54, 54, 54);
+  width: fit-content;
+}
+
+.main {
+  padding: 0px 40px 40px 40px;
+}
+
+
+.borderdiv {
+  padding: 20px;
+  border: 1px;
+  border-style: hidden;
+  border-radius: 8px;
+  background-color: rgb(63, 63, 63);
+  color: white;
+  box-shadow: 0 1px #1ed688;
+  width: auto;
+}
+
+.buttondiv {
+  margin-top: 1em;
+  padding: 1em;
+  border: 1px;
+  border-style: hidden;
+  border-radius: 8px;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  box-shadow: 0 -1px 0 0 #1ed688;
+  width: auto;
+}
+.buttondiv:hover {
+  background-color: rgb(44, 44, 44);
+  cursor: pointer;
+}
+
+.buttondiv:active {
+  transform: translateY(1px);
+}
+
+
+.timelabel {
+  font-size: medium;
+  color: white;
+  vertical-align: middle;
+}
+
+#time {
+  background-color: rgb(54, 54, 54);
+  padding: 0.5em;
+  border-radius: 8px;
+  width: 3em;
+  color: white;
+  font-size: medium;
+  border: none;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.button {
+  width: 100px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgba(240, 248, 255, 0);
+  padding: 10px;
+  background-color: #1ed688;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 2px #1bc57e;
+  margin-left: 4px;
+}
+
+.button:hover {
+  background-color: #1ab977;
+  box-shadow: 0 2px #128f5b;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+

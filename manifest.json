@@ -1,0 +1,40 @@
+{
+  
+  "description": "Refresh ZenDesk views based on a custom timer",
+  "manifest_version": 2,
+  "name": "ZenDesk View Refresh",
+  "version": "1.0",
+  "homepage_url": "https://github.com/alienator88",
+  "icons": {
+    "64": "images/icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.zendesk.com/agent/filters/*"],
+      "js": ["scripts/main.js"]
+    }
+  ],
+
+  "options_ui": {
+    "page": "options/options.html"
+  },
+
+  "permissions": ["storage"],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "lupascu.marius@gmail.com"
+    }
+  },
+ 
+  "browser_action": {
+    "browser_style": true,
+    "default_popup": "options/options.html",
+    "default_icon": {
+      "64": "images/icon.png"
+    }
+  }
+
+
+}

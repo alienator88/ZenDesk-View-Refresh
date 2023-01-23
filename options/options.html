@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="options.css" />
+</head>
+
+<body>
+
+
+  <div class="main">
+    <form>
+      <img style="display: block; margin: 0 auto; height:150px;" src="/images/logo.png" alt="logo">
+    </form>
+    <div class="borderdiv">
+      <span class="timelabel">Refresh every</span>
+      <input type="text" id="time" onfocus="this.value=''">
+      <span style="display:inline-block; width: 10px;margin-right: 6px;">sec</span><br>
+      <button class="buttondiv" id="10">10</button>
+      <button class="buttondiv" id="30">30</button>
+      <button class="buttondiv" id="60">60</button>
+      <button class="buttondiv" id="120">120</button>
+    </div>
+    <br><br>
+    <div>
+      <button style="display: block; margin: 0 auto; text-align: center;" class="button" type="submit"
+        id="save-btn">Save</button>
+    </div>
+  </div>
+
+  <script src="options.js"></script>
+
+</body>
+
+</html>
